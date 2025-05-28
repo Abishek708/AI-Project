@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: plant-health-app
+    env: python
+    buildCommand: ""
+    startCommand: python plant_health_system.py
+    plan: free
